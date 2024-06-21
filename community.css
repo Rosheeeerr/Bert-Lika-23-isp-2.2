@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    font-weight: 400;
+}
+body{
+    background-color: #0A0909;
+}
+header{
+    height: 13.4375vw;
+    width: 100%;
+}
+nav{
+    height: 13.4375vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 13.4375vw;
+    width: 17.70833vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo a, .logo img{
+    width: 9.375vw;
+    height: 9.375vw;
+    border-radius: 10vw;
+}
+.nav-menu{
+    width: 65.625vw;
+    height: 4.7395833vw;
+    background-color: #E94D24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    width: 52.0833vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links a{
+    color: #C6C6C6;
+    font-size: 1.66vw;
+    text-decoration: none;
+}
+.download{
+    width: 13.64166vw;
+    height: 4.7395833vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download p{
+    width: 13.020833vw;
+    height: 3.75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF3500;
+    border: 0.3vw black solid;
+    border-radius: 3.75vw;
+}
+.download a{
+    font-size: 1.66vw;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+.enter{
+    width: 14.79166vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enter img{
+    width: 5.15625vw;
+    height: 5.3125vw;
+}
+.BurgerMenu{
+    width: 153px;
+    height: 105px;
+}
+.header-burger{
+    position: fixed;
+    width: 30%;
+    height: 67%;
+    z-index: 15;
+    right: -70%;
+    transition: 0.25s all ease;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.burger-block{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: 13vh;
+    display: flex;
+    align-items: end;
+    visibility:hidden;
+}
+.burgerClose{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    margin-top: 135px;
+}
+.spisok-burger{
+    list-style: none;
+}
+.links-burger{
+    text-decoration: none;
+    color:#0A0909;
+    font-size: 20px;
+    font-weight: 700;
+}
+section{
+    width: 100%;
+    height: 44.6354166vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-text{
+    width: 83%;
+    height: 5vw;
+    color: white;
+    font-size: 2.0833vw;
+}
+.main-main{
+    width: 73%;
+    height: 35.46875vw;
+    background-color: #363636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-left{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.66vw;
+    color: white;
+}
+.left-text-top{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-text-middle{
+    width: 100%;
+    height: 37.5%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.left-text-bottom{
+    width: 100%;
+    height: 32.5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.left-text-bottom a{
+    text-decoration: none;
+    color: white;
+    background-color: #FF3500;
+    border-radius: 8vw;
+}
+.left-text-bottom a:first-of-type{
+    width: 11.875vw;
+    height: 3.07291666vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-text-bottom a:last-of-type{
+    width: 18.645833vw;
+    height: 3.07291666vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-right{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -3vw;
+}
+.right-text-top{
+    width: 100%;
+    height: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.666vw;
+    color: white;
+}
+.right-text-bottom{
+    width: 100%;
+    height: 55%;
+    font-size: 1.875vw;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+}
+.right-text-bottom a{
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5vw;
+}
+.right-game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-game img:first-of-type{
+    width: 4.21875vw;
+    height: 3.80208333vw;
+}
+.right-game img{
+    height: 3.28125vw;
+}
+footer{
+    width: 100%;
+    height: 23.541666vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    background-color: #101010;
+}
+.footer-text{
+    width: 82.08333vw;
+    height: 4.58333vw;
+    font-size: 1.875vw;
+    color: #A5A1A1;
+}
+.footer-stuff{
+    width: 97%;
+    height: 11.7708333vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-links{
+    width: 69%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 10.5vw;
+}
+.footer-links a{
+    font-size: 1.875vw;
+    color: #A5A1A1;
+    text-decoration: none;
+}
+.footer-logo{
+    width: 7.8125vw;
+    height: 7.8125vw;
+}
+.footer-logo a, .footer-logo img{
+    width: 7.8125vw;
+    height: 7.8125vw;
+    border-radius: 10vw;
+}
+@media(max-width: 768px){
+    .nav-menu{display: none;}
+    .enter{display: none;}
+    .logo{position: relative;
+    right: 250px;}
+    .burger-block{visibility:visible;
+        display: block;
+        position: relative;
+        top: 12px;
+        left: 260px;}
+}
+@media(max-width:425px){
+    .logo{position: relative;
+        top: 8px;
+        right: 100px;}
+        .burger-block{visibility:visible;
+            display: block;
+            position: relative;
+            top: 15px;
+            left: 190px;}
+            .bu-logo{width: 40px;
+            height: 40px;}
+        .close-icon{width: 30px;
+        height: 30px;}
+        .header-burger{
+            width: 34%;
+            height: 57%;
+        }
+}
+@media (max-width: 375px){
+    .logo{position: relative;
+        top: 8px;
+        right: 70px;}
+    .burger-block{visibility:visible;
+        display: block;
+        position: relative;
+        top: 20px;
+        left: 160px;}
+    .bu-logo{width: 30px;
+        height: 30px;}
+    .close-icon{width: 20px;
+        height: 20px;}
+    .header-burger{
+        width: 38%;
+        height: 57%;
+    }  
+}
+@media (max-width: 320px){
+    .logo{position: relative;
+        top: 8px;
+        right: 50px;}
+    .header-burger{
+        width: 43%;
+        height: 57%;
+    }  
+}
